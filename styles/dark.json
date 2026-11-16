@@ -1,0 +1,71 @@
+{
+  "version": 3,
+  "title": "After Hours",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "ink",
+          "color": "#F4F0E8",
+          "name": "Ink"
+        },
+        {
+          "slug": "paper",
+          "color": "#20201E",
+          "name": "Paper"
+        },
+        {
+          "slug": "white",
+          "color": "#FFFFFF",
+          "name": "White"
+        },
+        {
+          "slug": "clay",
+          "color": "#D97855",
+          "name": "Clay"
+        },
+        {
+          "slug": "sand",
+          "color": "#82796D",
+          "name": "Sand"
+        },
+        {
+          "slug": "sage",
+          "color": "#A8B39D",
+          "name": "Sage"
+        },
+        {
+          "slug": "muted",
+          "color": "#B0AAA0",
+          "name": "Muted"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#20201E",
+      "text": "#F4F0E8"
+    },
+    "elements": {
+      "heading": {
+        "color": {
+          "text": "#F4F0E8"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "#F4F0E8"
+        }
+      }
+    },
+    "blocks": {
+      "core/group": {
+        "color": {
+          "background": "#20201E",
+          "text": "#F4F0E8"
+        }
+      }
+    }
+  }
+}

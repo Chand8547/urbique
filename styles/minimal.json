@@ -1,0 +1,28 @@
+{
+  "version": 3,
+  "title": "Quiet Minimal",
+  "styles": {
+    "color": {
+      "background": "#FFFFFF",
+      "text": "#252522"
+    },
+    "typography": {
+      "fontFamily": "Georgia, 'Times New Roman', serif"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "Georgia, 'Times New Roman', serif",
+          "fontWeight": "400",
+          "letterSpacing": "-0.035em"
+        }
+      },
+      "button": {
+        "color": {
+          "background": "#252522",
+          "text": "#FFFFFF"
+        }
+      }
+    }
+  }
+}

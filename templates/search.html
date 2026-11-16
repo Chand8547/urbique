@@ -1,0 +1,32 @@
+<!-- search.html | Urbique by Chand Parvani | chandparvani93@gmail.com -->
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"},"style":{"spacing":{"padding":{"top":"80px","bottom":"100px"}}}} -->
+<main class="wp-block-group" style="padding-top:80px;padding-bottom:100px">
+<!-- wp:query-title {"type":"search","fontSize":"x-large"} /-->
+<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search the journal…","buttonText":"Search","buttonUseIcon":true} /-->
+<!-- wp:query {"query":{"perPage":10,"inherit":true},"layout":{"type":"constrained"}} -->
+<div class="wp-block-query">
+<!-- wp:post-template {"layout":{"type":"grid","columnCount":2}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
+<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/10"} /-->
+<!-- wp:post-title {"isLink":true,"fontSize":"large"} /-->
+<!-- wp:post-excerpt /-->
+</div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+<!-- wp:query-no-results -->
+<!-- wp:paragraph -->
+<p>No results. Try another search term.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results -->
+<!-- wp:query-pagination -->
+<!-- wp:query-pagination-previous /-->
+<!-- wp:query-pagination-numbers /-->
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+</div>
+<!-- /wp:query -->
+</main>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
